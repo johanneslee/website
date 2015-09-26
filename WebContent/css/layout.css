@@ -1,0 +1,47 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
+/* css transition */
+body *{-webkit-transition: all .1s ease;-moz-transition: all .1s ease;-ms-transition: all .1s ease;-o-transition: all .1s ease;transition: all .1s ease}
+/* layout css */
+body{font-family:'Ubuntu' 'Nanum Gothic';font-size:13px;padding:0;margin:0}
+.container{width:820px;margin:15px auto;padding:0 15px}
+.clearboth{clear:both}
+.header{border-bottom:2px solid #f52800}
+.header ul{list-style:none;margin:0;padding:0}
+.header ul li{display:inline-block;margin:5px 15px}
+.header ul li a{text-decoration:none;color:#000;line-height:20px;padding:3px}
+.header ul li a:hover{background:#f52800;color:#fff}
+.header ul li:first-child{margin-left:0}
+.header ul li:last-child{margin-right:0}
+.header .title{font-weight:bold;font-size:2.4em}
+.header .gnb-wrapper{float:left;font-size:1.2em}
+.header .extramenu-wrapper{float:right;font-size:1em}
+.header .extramenu-wrapper li{margin-left:4px;margin-right:4px}
+
+.content{padding:10px}
+
+.footer{padding:8px;border-top:2px solid #dedede}
+.footer .copyright{text-align:center;color:#676664;font-size:0.9em}
+
+.error{margin-top:100px;text-align:center}
+.error .errorcode{font-size:200px;font-weight:bold}
+
+.modal-box{margin:100px auto}
+.modal-box .modal-title h1{margin:0 0 3px 0}
+.modal-box .modal-content{padding:10px}
+
+.modal-box.login-form{width:300px;}
+.modal-box form input{margin-bottom:20px;padding:5px 10px;line-height:30px;font-size:20px;border:0;background:#efefef}
+.modal-box form input:hover{background:#f3f3f3}
+.modal-box form input:focus{background:#fafafa}
+.modal-box form input[type=submit],button{margin:5px auto;display:block}
+.modal-box.register-form{margin-top:20px;width:300px}
+.modal-box.find-form{margin-top:20px;width:300px}
+.modal-box.view-form{margin-top:20px;width:700px}
+
+.member-wrapper{}
+.member{margin:auto;float:left;width:33%; height:300px;color:#676664}
+.member span.member-text-row{display:block; text-align:center;line-height:18px;}
+.member .member-profile{margin:20px auto;height:150px;width:150px;border-radius:75px;background-size:contain}
+.member-text-row.name{font-weight:bold;font-size:18px;color:#333}
+.member-text-row.major{margin-bottom:10px}
